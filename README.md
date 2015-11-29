@@ -20,7 +20,8 @@ A collection of awesome [RxJS](hhttps://github.com/Reactive-Extensions/RxJS) too
 ## Articles
  - [Containers Are Dead. Long Live Observable Combinators](https://medium.com/@milankinen/containers-are-dead-long-live-observable-combinators-2cb0c1f06c96#.4e639jlf5)
  - [ Angular - Introduction to Reactive Extensions (RxJS)](https://medium.com/google-developer-experts/angular-introduction-to-reactive-extensions-rxjs-a86a7430a61f#.4xdsm88gq)
- - 
+
+ 
 ## People
  - [Ben Lesh @BenLesh](https://twitter.com/BenLesh) - Maintainer of RxJS 5.0
  - [Jens Krause @sectore ](https://twitter.com/sectore) 
