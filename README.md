@@ -7,6 +7,7 @@ A collection of awesome [RxJS](hhttps://github.com/Reactive-Extensions/RxJS) too
 
 
 ## Libraries Built with RxJS
+ - [Lell](https://github.com/arkverse/lell) - Reactive state, no boilerplate, just init and subscribe
  - [Cycle.js](https://cycle.js.org) - A fully reactive JavaScript framework for Human-Computer Interaction.
  - [Derivables.js](https://github.com/ds300/derivablejs) - Functional Reactive State for JavaScript and TypeScript
  - [WebRx](https://webrx.org) - The Browser-based MVVM-Framework for ReactiveX-powered Single Page Applications.
