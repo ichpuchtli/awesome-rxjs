@@ -4,7 +4,7 @@ Awesome RxJS
 A collection of awesome [RxJS](hhttps://github.com/Reactive-Extensions/RxJS) tools, frameworks and resources
 
 ## Getting Started
-
+ - [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
 
 ## Libraries Built with RxJS
  - [Lell](https://github.com/arkverse/lell) - Reactive state, no boilerplate, just init and subscribe
@@ -24,14 +24,17 @@ A collection of awesome [RxJS](hhttps://github.com/Reactive-Extensions/RxJS) too
  - [Containers Are Dead. Long Live Observable Combinators](https://medium.com/@milankinen/containers-are-dead-long-live-observable-combinators-2cb0c1f06c96#.4e639jlf5)
  - [ Angular - Introduction to Reactive Extensions (RxJS)](https://medium.com/google-developer-experts/angular-introduction-to-reactive-extensions-rxjs-a86a7430a61f#.4xdsm88gq)
  - [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
+ - [A Dead-Simple Todo List with RxJS](http://blog.edanschwartz.com/2015/09/18/dead-simple-rxjs-todo-list/?utm_medium=email)
+
+## References
+ - [Online gitbook rx-book](https://xgrommx.github.io/rx-book/index.html)
  
 ## People
- - [Ben Lesh @BenLesh](https://twitter.com/BenLesh) - Maintainer of RxJS 5.0
- - [Jens Krause @sectore ](https://twitter.com/sectore) 
+ - [Ben Lesh @BenLesh](https://twitter.com/BenLesh) - Maintainer of RxJS 5.x
  - [André Staltz @andrestaltz](https://twitter.com/andrestaltz) - Creator of Cycle.js
- - [Matt Podwysocki @mattpodwysocki](https://twitter.com/mattpodwysocki)
+ - [Matt Podwysocki @mattpodwysocki](https://twitter.com/mattpodwysocki) - Works at Netflix with Jafar on ReactiveX stuff
  - [Erik Meijer @headinthebox](https://twitter.com/headinthebox) - Functional Programming Wizard
- - [ReactiveX Offical Twitter](https://twitter.com/ReactiveX)
+ - [ReactiveX Offical Twitter](https://twitter.com/ReactiveX) - Official ReactiveX/Rx twitter
  - [David Sheldrick @djsheldrick](https://twitter.com/djsheldrick) - Creator of Derivables.js
  - [Jafar Husain @jhusain](https://twitter.com/djsheldrick) - Technical Lead at Netflix, used to work at microsoft on Rx
 
