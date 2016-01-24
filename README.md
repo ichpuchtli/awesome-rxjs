@@ -8,12 +8,24 @@ A collection of awesome [RxJS](https://github.com/Reactive-Extensions/RxJS) tool
  - [Learnrx interactive operator tutorial](http://reactivex.io/learnrx/)
  - [Introducing the Observable](https://egghead.io/lessons/javascript-introducing-the-observable) - Egghead Series by Jafar Husain
 
+## Hot vs Cold Observables
+[Paul Taylor](https://twitter.com/trxcllnt) (RxJS 5 Contributor) with the best explanation of Hot & Cold Observables yet.
+https://github.com/ReactiveX/RxJS/issues/1121#issuecomment-169568428
+> ...
+"cold" and "hot" don't refer to unicast vs. multicast, they refer to the state of the computation. An Observable represents an asynchronous computation (aka, it's a function that can return multiple values between now and infinity).
+
+>"Cold" Observables are just like functions which haven't been called (subscribed to) yet. Each time you call it (aka, subscribe to it), you're re-running whatever calculation the Observable performs.
+
+>"Hot" Observables are just regular cold Observables that you've shoved a Subject between you and the cold Observable source. When you subscribe to it, you're really subscribing to the Subject over and over. Subjects can have any number of Observers (just like EventEmitter, etc.), but the original cold source has only one Observer (the Subject that's sitting between you and the source).
+
 ## RxJS 5 vs RxJS 4
 [ReactiveX/RxJS](https://github.com/ReactiveX/RxJS) - (RxJS 5)
 
 >This rewrite is meant to have better performance, better modularity, better debuggable call stacks, while staying mostly backwards compatible, with some breaking changes that reduce the API surface.
 
 [Reactive-Extensions/RxJS](https://github.com/Reactive-Extensions/RxJS) - (RxJS 4)
+
+> ...is a set of libraries to compose asynchronous and event-based programs using observable collections and Array#extras style composition in JavaScript
  
 ## Libraries Built with RxJS
  - [arkverse/lell](https://github.com/arkverse/lell) - Reactive state, no boilerplate, just init and subscribe
@@ -23,6 +35,8 @@ A collection of awesome [RxJS](https://github.com/Reactive-Extensions/RxJS) tool
  - [Angular2](https://angular.io/) - Angular is a development platform for building mobile and desktop applications
  - [garbles/yolk](https://github.com/garbles/yolk) - :egg: A library for building asynchronous user interfaces.
  - [bcoop713/routerx](https://github.com/bcoop713/routerx) - A Router for RxJS and Cycle.js applcations
+ - [ngrx/store](https://github.com/ngrx/store) - RxJS powered state management inspired by Redux for Angular2
+
 
 ## Talks
  - [Reactive JavaScript at Netflix, Microsoft and the World](https://www.youtube.com/watch?v=KOOT7BArVHQ) - Matthew Podwysocki (Dec 2015)
@@ -30,22 +44,23 @@ A collection of awesome [RxJS](https://github.com/Reactive-Extensions/RxJS) tool
  - [Controlling Time and Space: understanding the many formulations of FRP](https://www.youtube.com/watch?v=Agu6jipKfYw) - Evan Czaplicki (Sep 2014)
 
 ## Articles
- - [Containers Are Dead. Long Live Observable Combinators](https://medium.com/@milankinen/containers-are-dead-long-live-observable-combinators-2cb0c1f06c96#.4e639jlf5)
- - [Angular - Introduction to Reactive Extensions (RxJS)](https://medium.com/google-developer-experts/angular-introduction-to-reactive-extensions-rxjs-a86a7430a61f#.4xdsm88gq)
- - [A Dead-Simple Todo List with RxJS](http://blog.edanschwartz.com/2015/09/18/dead-simple-rxjs-todo-list/?utm_medium=email) 
+ - [Containers Are Dead. Long Live Observable Combinators](https://medium.com/@milankinen/containers-are-dead-long-live-observable-combinators-2cb0c1f06c96#.4e639jlf5) - Matti Lankinen (Nov 2015)
+ - [Angular - Introduction to Reactive Extensions (RxJS)](https://medium.com/google-developer-experts/angular-introduction-to-reactive-extensions-rxjs-a86a7430a61f#.4xdsm88gq) - gsans (Sep 2015)
+ - [A Dead-Simple Todo List with RxJS](http://blog.edanschwartz.com/2015/09/18/dead-simple-rxjs-todo-list/?utm_medium=email) - Edan Schwartz (Sep 2015)
 
 ## References
  - [Online gitbook rx-book](https://xgrommx.github.io/rx-book/index.html)
  - [xgrommx/awesome-functional-programming](https://github.com/xgrommx/awesome-functional-programming)
  
 ## People
- - [Ben Lesh @BenLesh](https://twitter.com/BenLesh) - Maintainer of RxJS 5.x
+ - [Ben Lesh @BenLesh](https://twitter.com/BenLesh) - Lead Maintainer of RxJS 5
  - [André Staltz @andrestaltz](https://twitter.com/andrestaltz) - Creator of Cycle.js
  - [Jafar Husain @jhusain](https://twitter.com/djsheldrick) - Technical Lead at Netflix, used to work at microsoft on Rx
  - [Matt Podwysocki @mattpodwysocki](https://twitter.com/mattpodwysocki) - Works at Netflix with Jafar on ReactiveX stuff
  - [Erik Meijer @headinthebox](https://twitter.com/headinthebox) - Functional Programming Wizard
  - [ReactiveX Offical Twitter](https://twitter.com/ReactiveX) - Official ReactiveX/Rx twitter
  - [David Sheldrick @djsheldrick](https://twitter.com/djsheldrick) - Creator of Derivables.js
+ - [Paul Taylor](https://twitter.com/trxcllnt) - RxJS 5 Contributor
 
 ## Community
  - [RxJS Gitter](https://gitter.im/Reactive-Extensions/RxJS)
