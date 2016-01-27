@@ -1,3 +1,4 @@
+![image](https://cloud.githubusercontent.com/assets/1134912/12602549/f6db6850-c4f5-11e5-9eb8-dc28f08f68ec.png)
 Awesome RxJS
 ------------
 
@@ -47,6 +48,7 @@ https://github.com/ReactiveX/RxJS/issues/1121#issuecomment-169568428
  - [Containers Are Dead. Long Live Observable Combinators](https://medium.com/@milankinen/containers-are-dead-long-live-observable-combinators-2cb0c1f06c96#.4e639jlf5) - Matti Lankinen (Nov 2015)
  - [Angular - Introduction to Reactive Extensions (RxJS)](https://medium.com/google-developer-experts/angular-introduction-to-reactive-extensions-rxjs-a86a7430a61f#.4xdsm88gq) - gsans (Sep 2015)
  - [A Dead-Simple Todo List with RxJS](http://blog.edanschwartz.com/2015/09/18/dead-simple-rxjs-todo-list/?utm_medium=email) - Edan Schwartz (Sep 2015)
+ - [How To Debug RxJS Code](http://staltz.com/how-to-debug-rxjs-code.html) - Andre Staltz (Dec 2015)
 
 ## References
  - [Online gitbook rx-book](https://xgrommx.github.io/rx-book/index.html)
@@ -65,6 +67,13 @@ https://github.com/ReactiveX/RxJS/issues/1121#issuecomment-169568428
 ## Community
  - [RxJS Gitter](https://gitter.im/Reactive-Extensions/RxJS)
  - [RxJS StackOverflow](https://stackoverflow.com/questions/tagged/rxjs)
+ 
+## React & RxJS
+ - https://github.com/jas-chen/thisless-react
+
+## Angular2 & RxJS
+ - http://blog.lambda-it.ch/reactive-data-flow-in-angular-2/
+ - https://coryrylan.com/blog/angular-2-observable-data-services
 
 ## Other Reactive Programming Libraries
 * [baconjs/bacon.js](https://github.com/baconjs/bacon.js) - FRP (functional reactive programming) library for Javascript.
