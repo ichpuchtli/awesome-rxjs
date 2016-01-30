@@ -10,6 +10,7 @@ A collection of awesome [RxJS](https://github.com/Reactive-Extensions/RxJS) tool
  - [Libraries Built with RxJS](#libraries-built-with-rxjs)
  - [Talks](#talks)
  - [Articles](#articles)
+ - [References](#references)
  - [People](#people)
  - [Community](#community)
  - [React & RxJS](#react--rxjs)
