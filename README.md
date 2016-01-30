@@ -4,6 +4,10 @@ Awesome RxJS [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29
 
 A collection of awesome [RxJS](https://github.com/Reactive-Extensions/RxJS) tools, frameworks and resources
 
+ - [Getting Started](#getting-started)
+ - [Getting Started](#getting-started)
+ - [Getting Started](#getting-started)
+
 ## Getting Started
  - [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
  - [Learnrx interactive operator tutorial](http://reactivex.io/learnrx/)
