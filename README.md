@@ -1,5 +1,5 @@
 ![image](https://cloud.githubusercontent.com/assets/1134912/12602549/f6db6850-c4f5-11e5-9eb8-dc28f08f68ec.png)
-Awesome RxJS
+Awesome RxJS [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 ------------
 
 A collection of awesome [RxJS](https://github.com/Reactive-Extensions/RxJS) tools, frameworks and resources
@@ -80,3 +80,7 @@ https://github.com/ReactiveX/RxJS/issues/1121#issuecomment-169568428
 * [pozadi/kefir](https://github.com/pozadi/kefir) - FRP library for JavaScript inspired by Bacon.js and RxJS with focus on high performance and low memory consumption.
 * [Highland.js] (http://highlandjs.org/) - Re-thinking the JavaScript utility belt, Highland manages synchronous and asynchronous code easily, using nothing more than standard JavaScript and Node-like Streams.
 * [cujojs/most](https://github.com/cujojs/most) - high performance FRP library.
+
+## License
+
+[![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
