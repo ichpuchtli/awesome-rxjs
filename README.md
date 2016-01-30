@@ -5,8 +5,16 @@ Awesome RxJS [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29
 A collection of awesome [RxJS](https://github.com/Reactive-Extensions/RxJS) tools, frameworks and resources
 
  - [Getting Started](#getting-started)
- - [Getting Started](#getting-started)
- - [Getting Started](#getting-started)
+ - [Hot vs Cold Observables](#hot-vs-cold-observables)
+ - [RxJS 5 vs RxJS 4](#rxjs-5-vs-rxjs-4)
+ - [Libraries Built with RxJS](#libraries-built-with-rxjs)
+ - [Talks](#talks)
+ - [Articles](#articles)
+ - [People](#people)
+ - [Community](#community)
+ - [React & RxJS](#react--rxjs)
+ - [Angular2 & RxJS](#angular2--rxjs)
+ - [Other Reactive Programming Libraries](#other-reactive-programming-libraries)
 
 ## Getting Started
  - [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
