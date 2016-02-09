@@ -66,6 +66,7 @@ https://github.com/ReactiveX/RxJS/issues/1121#issuecomment-169568428
 ## References
  - [Online gitbook rx-book](https://xgrommx.github.io/rx-book/index.html)
  - [xgrommx/awesome-functional-programming](https://github.com/xgrommx/awesome-functional-programming)
+ - [Awesome example of combineLatest](https://jsbin.com/padutujasu/edit?js,output) from [@xgrommx](https://twitter.com/xgrommx)
  
 ## People
  - [Ben Lesh @BenLesh](https://twitter.com/BenLesh) - Lead Maintainer of RxJS 5
