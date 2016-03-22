@@ -23,6 +23,7 @@ A collection of awesome [RxJS](https://github.com/Reactive-Extensions/RxJS) tool
  - [Learnrx interactive operator tutorial](http://reactivex.io/learnrx/)
  - [Introducing the Observable](https://egghead.io/lessons/javascript-introducing-the-observable) - Egghead Series by Jafar Husain
  - [The Two Pillars of JavaScript — Pt 2: Functional Programming](https://medium.com/javascript-scene/the-two-pillars-of-javascript-pt-2-functional-programming-a63aa53a41a4#.cn22tmqmm)
+ - [RxJS, Kefir and Bacon are "inspired by" FRP but not strict functional](https://twitter.com/conal/status/468875014461468677) - Conal Elliott
 
 ## Hot vs Cold Observables
 [Paul Taylor](https://twitter.com/trxcllnt) (RxJS 5 Contributor) with the best explanation of Hot & Cold Observables yet.
@@ -42,7 +43,7 @@ https://github.com/ReactiveX/RxJS/issues/1121#issuecomment-169568428
 [Reactive-Extensions/RxJS](https://github.com/Reactive-Extensions/RxJS) - (RxJS 4)
 
 > ...is a set of libraries to compose asynchronous and event-based programs using observable collections and Array#extras style composition in JavaScript
- 
+
 ## Libraries Built with RxJS
  - [arkverse/lell](https://github.com/arkverse/lell) - Reactive state, no boilerplate, just init and subscribe
  - [Cycle.js](https://cycle.js.org) - A fully reactive JavaScript framework for Human-Computer Interaction.
@@ -74,7 +75,7 @@ https://github.com/ReactiveX/RxJS/issues/1121#issuecomment-169568428
  - [Online gitbook rx-book](https://xgrommx.github.io/rx-book/index.html)
  - [xgrommx/awesome-functional-programming](https://github.com/xgrommx/awesome-functional-programming)
  - [Awesome example of combineLatest](https://jsbin.com/padutujasu/edit?js,output) from [@xgrommx](https://twitter.com/xgrommx)
- 
+
 ## People
  - [Ben Lesh @BenLesh](https://twitter.com/BenLesh) - Lead Maintainer of RxJS 5
  - [André Staltz @andrestaltz](https://twitter.com/andrestaltz) - Creator of Cycle.js
@@ -88,7 +89,7 @@ https://github.com/ReactiveX/RxJS/issues/1121#issuecomment-169568428
 ## Community
  - [RxJS Gitter](https://gitter.im/Reactive-Extensions/RxJS)
  - [RxJS StackOverflow](https://stackoverflow.com/questions/tagged/rxjs)
- 
+
 ## React & RxJS
  - https://github.com/jas-chen/thisless-react
 
