@@ -10,6 +10,7 @@ A collection of awesome [RxJS](https://github.com/Reactive-Extensions/RxJS) tool
  - [Libraries Built with RxJS](#libraries-built-with-rxjs)
  - [Talks](#talks)
  - [Articles](#articles)
+ - [Testing](#testing)
  - [References](#references)
  - [People](#people)
  - [Community](#community)
@@ -62,7 +63,12 @@ https://github.com/ReactiveX/RxJS/issues/1121#issuecomment-169568428
  - [Containers Are Dead. Long Live Observable Combinators](https://medium.com/@milankinen/containers-are-dead-long-live-observable-combinators-2cb0c1f06c96#.4e639jlf5) - Matti Lankinen (Nov 2015)
  - [Angular - Introduction to Reactive Extensions (RxJS)](https://medium.com/google-developer-experts/angular-introduction-to-reactive-extensions-rxjs-a86a7430a61f#.4xdsm88gq) - gsans (Sep 2015)
  - [A Dead-Simple Todo List with RxJS](http://blog.edanschwartz.com/2015/09/18/dead-simple-rxjs-todo-list/?utm_medium=email) - Edan Schwartz (Sep 2015)
- - [How To Debug RxJS Code](http://staltz.com/how-to-debug-rxjs-code.html) - Andre Staltz (Dec 2015)
+
+## Testing
+- [How To Debug RxJS Code](http://staltz.com/how-to-debug-rxjs-code.html) - Andre Staltz (Dec 2015)
+- [Testing reactive code](https://glebbahmutov.com/blog/testing-reactive-code/) - Dr. Gleb Bahmutov (Feb 2016)
+- [Testing your Rx application](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/gettingstarted/testing.md) - RxJS documentation
+- [RxJs Testing in Real World Applications](https://blog.hyphe.me/rxjs-testing-in-real-world-applications/) - Simon Jentsch (Feb 2016)
 
 ## References
  - [Online gitbook rx-book](https://xgrommx.github.io/rx-book/index.html)
