@@ -5,6 +5,7 @@ Awesome RxJS [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29
 A collection of awesome [RxJS](https://github.com/Reactive-Extensions/RxJS) tools, frameworks and resources
 
  - [Getting Started](#getting-started)
+ - [Beyond the Basics](#beyond-the-basics)
  - [Hot vs Cold Observables](#hot-vs-cold-observables)
  - [RxJS 5 vs RxJS 4](#rxjs-5-vs-rxjs-4)
  - [Libraries Built with RxJS](#libraries-built-with-rxjs)
@@ -29,6 +30,10 @@ A collection of awesome [RxJS](https://github.com/Reactive-Extensions/RxJS) tool
  - [What is FRP aka. Functional Reactive Programming Specification](http://stackoverflow.com/questions/5875929/specification-for-a-functional-reactive-programming-language/5878525#5878525) - Conal Elliott
  - [Interactive diagrams of Rx Observables](http://rxmarbles.com/) - André Staltz
  
+## Beyond the Basics
+- [RxJS Beyond the Basics: Creating Observables from scratch](https://egghead.io/series/rxjs-beyond-the-basics-creating-observables-from-scratch) - Egghead series by André Staltz
+- [RxJS Beyond the Basics: Operators in Depth](https://egghead.io/series/rxjs-beyond-the-basics-operators-in-depth) - Egghead series by André Staltz
+
 ## Hot vs Cold Observables
 [Paul Taylor](https://twitter.com/trxcllnt) (RxJS 5 Contributor) with the best explanation of Hot & Cold Observables yet.
 https://github.com/ReactiveX/RxJS/issues/1121#issuecomment-169568428
