@@ -21,6 +21,7 @@ A collection of awesome [RxJS](https://github.com/Reactive-Extensions/RxJS) tool
 ## Getting Started
  - [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
  - [Learnrx interactive operator tutorial](http://reactivex.io/learnrx/)
+ - [Step-by-Step Async JavaScript with RxJS](https://egghead.io/series/step-by-step-async-javascript-with-rxjs) - Egghead series by John Lindquist
  - [Introducing the Observable](https://egghead.io/lessons/javascript-introducing-the-observable) - Egghead Series by Jafar Husain
  - [The Two Pillars of JavaScript — Pt 2: Functional Programming](https://medium.com/javascript-scene/the-two-pillars-of-javascript-pt-2-functional-programming-a63aa53a41a4#.cn22tmqmm)
  - [RxJS, Kefir and Bacon are "inspired by" FRP but not strict functional](https://twitter.com/conal/status/468875014461468677) - Conal Elliott
