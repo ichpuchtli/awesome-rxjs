@@ -5,6 +5,7 @@ Awesome RxJS [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29
 A collection of awesome [RxJS](https://github.com/Reactive-Extensions/RxJS) tools, frameworks and resources
 
  - [Getting Started](#getting-started)
+ - [Beyond the Basics](#beyond-the-basics)
  - [Hot vs Cold Observables](#hot-vs-cold-observables)
  - [RxJS 5 vs RxJS 4](#rxjs-5-vs-rxjs-4)
  - [Libraries Built with RxJS](#libraries-built-with-rxjs)
@@ -21,11 +22,17 @@ A collection of awesome [RxJS](https://github.com/Reactive-Extensions/RxJS) tool
 ## Getting Started
  - [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
  - [Learnrx interactive operator tutorial](http://reactivex.io/learnrx/)
+ - [Introduction to Reactive Programming](https://egghead.io/series/introduction-to-reactive-programming) - Egghead series by André Staltz for *brand new* to reactive programming
+ - [Step-by-Step Async JavaScript with RxJS](https://egghead.io/series/step-by-step-async-javascript-with-rxjs) - Egghead series by John Lindquist
  - [Introducing the Observable](https://egghead.io/lessons/javascript-introducing-the-observable) - Egghead Series by Jafar Husain
  - [The Two Pillars of JavaScript — Pt 2: Functional Programming](https://medium.com/javascript-scene/the-two-pillars-of-javascript-pt-2-functional-programming-a63aa53a41a4#.cn22tmqmm)
  - [RxJS, Kefir and Bacon are "inspired by" FRP but not strict functional](https://twitter.com/conal/status/468875014461468677) - Conal Elliott
  - [What is FRP aka. Functional Reactive Programming Specification](http://stackoverflow.com/questions/5875929/specification-for-a-functional-reactive-programming-language/5878525#5878525) - Conal Elliott
  - [Interactive diagrams of Rx Observables](http://rxmarbles.com/) - André Staltz
+ 
+## Beyond the Basics
+- [RxJS Beyond the Basics: Creating Observables from scratch](https://egghead.io/series/rxjs-beyond-the-basics-creating-observables-from-scratch) - Egghead series by André Staltz
+- [RxJS Beyond the Basics: Operators in Depth](https://egghead.io/series/rxjs-beyond-the-basics-operators-in-depth) - Egghead series by André Staltz
 
 ## Hot vs Cold Observables
 [Paul Taylor](https://twitter.com/trxcllnt) (RxJS 5 Contributor) with the best explanation of Hot & Cold Observables yet.
