@@ -29,7 +29,7 @@ A collection of awesome [RxJS](https://github.com/Reactive-Extensions/RxJS) tool
  - [RxJS, Kefir and Bacon are "inspired by" FRP but not strict functional](https://twitter.com/conal/status/468875014461468677) - Conal Elliott
  - [What is FRP aka. Functional Reactive Programming Specification](http://stackoverflow.com/questions/5875929/specification-for-a-functional-reactive-programming-language/5878525#5878525) - Conal Elliott
  - [Interactive diagrams of Rx Observables](http://rxmarbles.com/) - André Staltz
- - [Learn RxJS](https://learnrxjs.io) - RxJS 5 descriptions, examples, and resources by Brian Troncone
+ - [Learn RxJS](http://learnrxjs.io) - RxJS 5 descriptions, examples, and resources by Brian Troncone
  
 ## Beyond the Basics
 - [RxJS Beyond the Basics: Creating Observables from scratch](https://egghead.io/series/rxjs-beyond-the-basics-creating-observables-from-scratch) - Egghead series by André Staltz
