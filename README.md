@@ -11,6 +11,7 @@ A collection of awesome [RxJS](https://github.com/Reactive-Extensions/RxJS) tool
  - [Libraries Built with RxJS](#libraries-built-with-rxjs)
  - [Talks](#talks)
  - [Articles](#articles)
+ - [Examples](#examples)
  - [Testing](#testing)
  - [References](#references)
  - [People](#people)
@@ -18,6 +19,7 @@ A collection of awesome [RxJS](https://github.com/Reactive-Extensions/RxJS) tool
  - [React & RxJS](#react--rxjs)
  - [Angular2 & RxJS](#angular2--rxjs)
  - [Other Reactive Programming Libraries](#other-reactive-programming-libraries)
+ - [Sources](#sources)
 
 ## Getting Started
  - [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
@@ -75,6 +77,9 @@ https://github.com/ReactiveX/RxJS/issues/1121#issuecomment-169568428
  - [Angular - Introduction to Reactive Extensions (RxJS)](https://medium.com/google-developer-experts/angular-introduction-to-reactive-extensions-rxjs-a86a7430a61f#.4xdsm88gq) - gsans (Sep 2015)
  - [A Dead-Simple Todo List with RxJS](http://blog.edanschwartz.com/2015/09/18/dead-simple-rxjs-todo-list/?utm_medium=email) - Edan Schwartz (Sep 2015)
 
+## Examples 
+ - [Awesome example of combineLatest](https://jsbin.com/padutujasu/edit?js,output) from [@xgrommx](https://twitter.com/xgrommx)
+ 
 ## Testing
 - [How To Debug RxJS Code](http://staltz.com/how-to-debug-rxjs-code.html) - Andre Staltz (Dec 2015)
 - [Testing reactive code](https://glebbahmutov.com/blog/testing-reactive-code/) - Dr. Gleb Bahmutov (Feb 2016)
@@ -84,7 +89,7 @@ https://github.com/ReactiveX/RxJS/issues/1121#issuecomment-169568428
 ## References
  - [Online gitbook rx-book](https://xgrommx.github.io/rx-book/index.html)
  - [xgrommx/awesome-functional-programming](https://github.com/xgrommx/awesome-functional-programming)
- - [Awesome example of combineLatest](https://jsbin.com/padutujasu/edit?js,output) from [@xgrommx](https://twitter.com/xgrommx)
+
 
 ## People
  - [Ben Lesh @BenLesh](https://twitter.com/BenLesh) - Lead Maintainer of RxJS 5
@@ -112,6 +117,14 @@ https://github.com/ReactiveX/RxJS/issues/1121#issuecomment-169568428
 * [pozadi/kefir](https://github.com/pozadi/kefir) - FRP library for JavaScript inspired by Bacon.js and RxJS with focus on high performance and low memory consumption.
 * [Highland.js] (http://highlandjs.org/) - Re-thinking the JavaScript utility belt, Highland manages synchronous and asynchronous code easily, using nothing more than standard JavaScript and Node-like Streams.
 * [cujojs/most](https://github.com/cujojs/most) - high performance FRP library.
+
+## Sources
+
+### 4.x
+https://cdnjs.com/libraries/rxjs/
+
+### 5.x
+https://unpkg.com/@reactivex/rxjs@5.0.0-beta.12/dist/global/Rx.js
 
 ## License
 
