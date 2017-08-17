@@ -108,6 +108,7 @@ https://github.com/ReactiveX/RxJS/issues/1121#issuecomment-169568428
 
 ## React & RxJS
  - https://github.com/jas-chen/thisless-react
+ - [FrintJS](https://frint.js.org): Build reactive and scalable applications with RxJS and React
 
 ## Angular2 & RxJS
  - http://blog.lambda-it.ch/reactive-data-flow-in-angular-2/
