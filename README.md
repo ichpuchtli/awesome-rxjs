@@ -77,6 +77,7 @@ https://github.com/ReactiveX/RxJS/issues/1121#issuecomment-169568428
  - [Containers Are Dead. Long Live Observable Combinators](https://medium.com/@milankinen/containers-are-dead-long-live-observable-combinators-2cb0c1f06c96#.4e639jlf5) - Matti Lankinen (Nov 2015)
  - [Angular - Introduction to Reactive Extensions (RxJS)](https://medium.com/google-developer-experts/angular-introduction-to-reactive-extensions-rxjs-a86a7430a61f#.4xdsm88gq) - gsans (Sep 2015)
  - [A Dead-Simple Todo List with RxJS](http://blog.edanschwartz.com/2015/09/18/dead-simple-rxjs-todo-list/?utm_medium=email) - Edan Schwartz (Sep 2015)
+ - [Impossível errar com RxJS e Redux](https://medium.com/@tiagosemoh/imposs%C3%ADvel-errar-com-rxjs-e-redux-7876459c0044) (pt-BR) Tiago Miranda (Mar 2018)
 
 ## Examples 
  - [Awesome example of combineLatest](https://jsbin.com/padutujasu/edit?js,output) from [@xgrommx](https://twitter.com/xgrommx)
