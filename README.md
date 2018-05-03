@@ -96,7 +96,7 @@ https://github.com/ReactiveX/RxJS/issues/1121#issuecomment-169568428
 ## People
  - [Ben Lesh @BenLesh](https://twitter.com/BenLesh) - Lead Maintainer of RxJS 5
  - [André Staltz @andrestaltz](https://twitter.com/andrestaltz) - Creator of Cycle.js
- - [Jafar Husain @jhusain](https://twitter.com/djsheldrick) - Technical Lead at Netflix, used to work at microsoft on Rx
+ - [Jafar Husain @jhusain](https://twitter.com/jhusain) - Technical Lead at Netflix, used to work at microsoft on Rx
  - [Matt Podwysocki @mattpodwysocki](https://twitter.com/mattpodwysocki) - Works at Netflix with Jafar on ReactiveX stuff
  - [Erik Meijer @headinthebox](https://twitter.com/headinthebox) - Functional Programming Wizard
  - [ReactiveX Offical Twitter](https://twitter.com/ReactiveX) - Official ReactiveX/Rx twitter
