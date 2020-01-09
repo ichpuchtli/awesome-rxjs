@@ -33,6 +33,7 @@ A collection of awesome [RxJS](https://github.com/Reactive-Extensions/RxJS) tool
  - [Interactive diagrams of Rx Observables](http://rxmarbles.com/) - André Staltz
  - [Rx Visualizer](https://rxviz.com) - Animated playground for Rx Observables by Misha Moroshko
  - [Learn RxJS](http://learnrxjs.io) - RxJS 5 descriptions, examples, and resources by Brian Troncone
+ - [Reactive.how](https://reactive.how/) -  Animated cards to learn Reactive Programming by Cédric Soulas
  
 ## Beyond the Basics
 - [RxJS Beyond the Basics: Creating Observables from scratch](https://egghead.io/series/rxjs-beyond-the-basics-creating-observables-from-scratch) - Egghead series by André Staltz
