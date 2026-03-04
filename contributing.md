@@ -1,13 +1,41 @@
 # Contribution Guidelines
 
+Thank you for helping make Awesome RxJS even better! Every contribution matters.
+
 ## Adding to this list
 
-If you have something awesome to contribute to this list, this is how you do it.
+### What makes a resource "awesome"?
+
+Research if the resource you're submitting is actually awesome. Only resources you've personally evaluated should be suggested. After all, it's a curation, not a collection.
+
+An awesome resource should:
+- Be relevant to the RxJS ecosystem
+- Be actively maintained (or historically significant)
+- Have clear documentation or value
+- Not duplicate existing entries
+
+### How to contribute
 
 You'll need a [GitHub account](https://github.com/join)!
 
-1. Click on the `readme.md` file: ![Step 2 Click on Readme.md](https://cloud.githubusercontent.com/assets/170270/9402920/53a7e3ea-480c-11e5-9d81-aecf64be55eb.png)
-2. Now click on the edit icon. ![Step 3 - Click on Edit](https://cloud.githubusercontent.com/assets/170270/9402927/6506af22-480c-11e5-8c18-7ea823530099.png)
-3. You can start editing the text of the file in the in-browser editor. Make sure you follow guidelines above. You can use [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/). ![Step 4 - Edit the file](https://cloud.githubusercontent.com/assets/170270/9402932/7301c3a0-480c-11e5-81f5-7e343b71674f.png)
-4. Say why you're proposing the changes, and then click on "Propose file change". ![Step 5 - Propose Changes](https://cloud.githubusercontent.com/assets/170270/9402937/7dd0652a-480c-11e5-9138-bd14244593d5.png)
-5. Submit the [pull request](https://help.github.com/articles/using-pull-requests/)!
+1. Click on the `README.md` file
+2. Click on the edit icon (pencil)
+3. Make your changes following these guidelines:
+   - Add your resource to the appropriate section
+   - Use the format: `[Name](link) — Description.`
+   - Keep descriptions concise (one sentence)
+   - Maintain alphabetical order within sections where possible
+4. Write a clear commit message explaining what you're adding and why
+5. Submit a [pull request](https://help.github.com/articles/using-pull-requests/)
+
+### Suggesting new sections
+
+If your resource doesn't fit any existing section, feel free to propose a new one! Open an issue first to discuss it.
+
+### Updating existing entries
+
+If a resource has moved, been deprecated, or has updated information, please submit a PR to keep things current.
+
+## Code of Conduct
+
+Please note we have a [Code of Conduct](CODE_OF_CONDUCT.md). Please follow it in all your interactions with the project.
