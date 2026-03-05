@@ -120,13 +120,17 @@
             │    ancestor of everything that follows.
             │
             │
-    2005    ●─── The Duality Insight
-            │    Erik Meijer at Microsoft Research has a breakthrough: he
-            │    recognizes that IObservable<T> is the mathematical dual of
-            │    IEnumerable<T>. Where Enumerable lets you PULL values
-            │    synchronously, Observable lets you PUSH values asynchronously.
-            │    Same algebra, opposite direction. This elegant insight becomes
-            │    the foundation of Reactive Extensions.
+   ~2007    ●─── The Duality Insight
+            │    Erik Meijer and his Cloud Programmability Team at Microsoft
+            │    (including Brian Beckman, Wes Dyer, Bart De Smet, Jeffrey
+            │    Van Gogh, and Matthew Podwysocki) have a breakthrough while
+            │    working on the Volta project: IObservable<T> is the
+            │    mathematical dual of IEnumerable<T>. Where Enumerable lets
+            │    you PULL values synchronously, Observable lets you PUSH
+            │    values asynchronously. Same algebra, opposite direction.
+            │    They derived the Observable interfaces mechanically — by
+            │    reversing the arrows on Iterator. This elegant insight
+            │    becomes the foundation of Reactive Extensions.
             │
             │        ┌─────────────────────────────────────────────┐
             │        │  IEnumerable<T>  ←──dual──→  IObservable<T> │
@@ -138,62 +142,69 @@
             │        └─────────────────────────────────────────────┘
             │
             │
-    2007    ●─── Flapjax
-            │    Leo Meyerovich and team at Brown University create Flapjax,
-            │    one of the first FRP languages for the web. It compiles to
-            │    JavaScript and demonstrates that reactive programming can
-            │    work in browsers. A proof of concept ahead of its time.
+    2006    ●─── Flapjax
+            │    Shriram Krishnamurthi, Leo Meyerovich, and team at Brown
+            │    University create Flapjax — one of the first FRP languages
+            │    for the web. It compiles to JavaScript and demonstrates
+            │    that reactive programming can work in browsers. A proof of
+            │    concept ahead of its time. (Won OOPSLA Most Influential
+            │    Paper Award in 2019.)
             │
 
   ── THE BIRTH OF Rx ─────────────────────────────────────────────────────────────
 
             │
-    2009    ●─── Rx.NET 1.0
-            │    Erik Meijer's team at Microsoft DevLabs releases Reactive
-            │    Extensions for .NET — the first Rx library. It ships as
-            │    System.Reactive. LINQ-style operators (Select, Where,
+    2009    ●─── Rx Unveiled at Microsoft PDC
+            │    Erik Meijer's team unveils Reactive Extensions at the
+            │    Microsoft Professional Developers Conference — branded as
+            │    "LINQ to Events." LINQ-style operators (Select, Where,
             │    SelectMany) applied to push-based streams. Developers can
             │    now compose asynchronous event sequences as elegantly as
             │    they query collections. The reactive revolution begins.
+            │    (Rx.NET 1.0 officially ships June 2011.)
             │
             │
-    2010    ●─── Rx Goes Open Source & RxJS is Born
-            │    Microsoft open-sources Reactive Extensions under the Apache
-            │    2.0 license. Matthew Podwysocki leads the effort to create
-            │    RxJS — the first JavaScript port of Rx. It brings Observable,
-            │    Observer, and the operator algebra to the browser.
+    2010    ●─── RxJS is Born
+            │    Matthew Podwysocki creates RxJS — the JavaScript port of
+            │    Rx — as part of the original Microsoft Rx team. It brings
+            │    Observable, Observer, and the operator algebra to the
+            │    browser. Preview builds ship with bindings for jQuery,
+            │    Dojo, ExtJS, and Node.js.
+            │
+            │
+    2012    ●─── Rx Goes Open Source
+            │    Microsoft Open Technologies open-sources Reactive Extensions
+            │    under the Apache 2.0 license — Rx.NET, RxJS, and RxCpp all
+            │    land on CodePlex (later GitHub). The gates are open.
             │
             │
 
   ── THE EXPANSION ───────────────────────────────────────────────────────────────
 
             │
-    2012    ●─── RxJava at Netflix
-            │    Ben Christensen and Jafar Husain at Netflix create RxJava to
-            │    handle the massive scale of Netflix's microservices. Reactive
-            │    patterns prove they can work at Netflix scale — millions of
-            │    concurrent streams across thousands of devices. The success
-            │    of RxJava brings Rx into the mainstream.
+    2013    ●─── RxJava at Netflix
+            │    Ben Christensen and Jafar Husain announce RxJava on the
+            │    Netflix Tech Blog. Jafar — the first Rx user inside
+            │    Microsoft — brought reactive thinking to Netflix when he
+            │    joined in 2011. By announcement time, RxJava is already
+            │    in production handling 2+ billion requests/day. Reactive
+            │    patterns prove they work at Netflix scale.
+            │
+            │    Erik Meijer leaves Microsoft and founds Applied Duality.
             │
             │
-    2013    ●─── ReactiveX Unifies the Ecosystem
-            │    ReactiveX.io launches as a cross-language initiative, unifying
-            │    Rx implementations under one banner: RxJava, RxJS, Rx.NET,
-            │    RxSwift, RxKotlin, RxPY, RxRuby, RxScala, and more.
+    2014    ●─── ReactiveX Unifies the Ecosystem
+            │    The ReactiveX GitHub org is formed. RxJava moves from
+            │    Netflix's repo to ReactiveX/. ReactiveX.io launches as a
+            │    cross-language hub: RxJava, RxJS, Rx.NET, RxSwift,
+            │    RxKotlin, RxPY, RxRuby, RxScala, and more.
             │    "An API for asynchronous programming with observable streams."
             │
-            │    Meanwhile, Juha Paananen releases Bacon.js, bringing FRP
-            │    concepts to mainstream JavaScript with an accessible API.
+            │    RxJava reaches 1.0.0 in November. Jafar Husain's "Async
+            │    Programming in ES7" talk at Netflix previews the dream of
+            │    Observable as a language primitive.
             │
             │
-    2014    ●─── RxJS 4 Matures
-            │    The Microsoft-era RxJS (Reactive-Extensions/RxJS) reaches
-            │    version 4 — a full-featured, battle-tested library. But the
-            │    codebase is showing its age: large bundles, hard to debug,
-            │    and difficult to tree-shake.
-            │
-            │    Jafar Husain's "Async Programming in ES7" talk at Netflix
-            │    previews the idea of Observable as a language primitive.
             │
             │
 
@@ -218,13 +229,14 @@
             │
             │
     2016    ●─── RxJS 5 & Angular 2
-            │    Ben Lesh and Paul Taylor ship RxJS 5 — a ground-up rewrite
-            │    under the ReactiveX GitHub org. Faster, smaller, with proper
-            │    class-based Observables and Symbol.observable support.
+            │    September: Google releases Angular 2 with RxJS as its only
+            │    external dependency — powering HttpClient, Router, and
+            │    Reactive Forms. Millions of Angular devs become RxJS users
+            │    overnight. Observable goes from niche to mainstream.
             │
-            │    Google's Angular 2 launches with RxJS as a core dependency.
-            │    Overnight, millions of Angular developers become RxJS users.
-            │    Observable goes from niche to mainstream.
+            │    December 13: RxJS 5.0.0 stable ships. A ground-up rewrite
+            │    under ReactiveX/rxjs by Ben Lesh and Paul Taylor. Faster,
+            │    smaller, class-based Observables, Symbol.observable support.
             │
             │
 
@@ -236,14 +248,18 @@
             │    NestJS launches with deep RxJS integration on the server.
             │    Nicholas Jamieson (cartant) begins building essential tools:
             │    rxjs-spy, rxjs-marbles, eslint-plugin-rxjs, rxjs-etc.
-            │    The WHATWG DOM Observable issue is filed — a new path toward
-            │    standardization.
+            │
+            │    May: The TC39 Observable proposal stalls at Stage 1.
+            │    December: WHATWG DOM issue #544 is filed — "Improving
+            │    ergonomics of events with Observable" — opening a new
+            │    path toward standardization via the web platform. It
+            │    becomes the most-reacted-to standards issue on GitHub.
             │
             │
-    2018    ●─── RxJS 6: The pipe() Revolution
+    2018    ●─── RxJS 6: The pipe() Revolution  (April)
             │    Pipeable operators replace dot-chaining. Tree-shaking finally
-            │    works. Bundle sizes shrink dramatically. The API becomes
-            │    cleaner and more functional:
+            │    works. Bundle sizes shrink dramatically. Ships alongside
+            │    Angular 6. The API becomes cleaner and more functional:
             │
             │        // Before (RxJS 5)              // After (RxJS 6)
             │        // source.map(x => x * 2)       // source.pipe(
@@ -258,7 +274,7 @@
             │    delivers the keynote. The community has a home.
             │
             │
-    2021    ●─── RxJS 7: Lean & Precise
+    2021    ●─── RxJS 7: Lean & Precise  (April 29)
             │    53% smaller bundle than v6. Better TypeScript types.
             │    toPromise() deprecated for firstValueFrom/lastValueFrom.
             │    New operators: animationFrames(), switchScan(). AsyncIterable
@@ -277,11 +293,16 @@
             │    with the native API.
             │
             │
-    2025    ●─── Observable Goes Native
+    2025    ●─── Observable Goes Native  (April — Chrome 135)
             │    The Observable API ships in Chrome 135 and Chromium-based
-            │    browsers. After 10 years, Observable is finally a browser
-            │    primitive. RxJS's future role: extend and enrich the native
-            │    Observable with the rich operator library developers love.
+            │    browsers. EventTarget.when() returns a native Observable.
+            │    After 10 years and a journey from TC39 to WHATWG, Observable
+            │    is finally a browser primitive.
+            │
+            │    RxJS's future role: extend and enrich the native Observable
+            │    with the rich operator library developers love. RxJS 8
+            │    (8.0.0-alpha.14) is being designed to align with and
+            │    complement the native implementation.
             │
             │    Meanwhile, Angular adopts Signals for synchronous reactivity
             │    alongside RxJS for asynchronous streams — proving that the
